@@ -9,7 +9,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Review System**: Allow users to leave reviews and ratings for properties.
 - **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations.
 
-# 🛠️ Features Breakdown
+# 🛠️ Feature Breakdown
 ## 1. API Documentation
 - **OpenAPI Standard:** The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
 - **Django REST Framework:** Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
