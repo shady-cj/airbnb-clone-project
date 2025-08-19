@@ -41,7 +41,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Celery:** For handling asynchronous tasks such as sending notifications or processing payments.
 - **Redis:** Used for caching and session management.
 - **Docker:** Containerization tool for consistent development and deployment environments.
-- **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+- **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes. (jenkins, github actions, aws cloudformation etc..)
 
 # 👥 Team Roles
 - **Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
