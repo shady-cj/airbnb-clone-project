@@ -53,6 +53,18 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **REST API:** Detailed documentation available through the OpenAPI standard, including endpoints for users, properties, bookings, and payments.
 - **GraphQL API:** Provides a flexible query language for retrieving and manipulating data.
 
+# 📅Database Design
+key tables to be created are 
+- Users
+- Properties
+- Bookings
+- Payments
+- Reviews
+
+While ensuring the right table relationship design (one-to-many, and many-to-many).
+  
+  for example a user can create multiple bookings (one-to-many)
+
 # 📌 Endpoints Overview
 REST API Endpoints
 ### Users
@@ -90,3 +102,17 @@ REST API Endpoints
 - GET /reviews/{review_id}/ - Retrieve a specific review
 - PUT /reviews/{review_id}/ - Update a specific review
 - DELETE /reviews/{review_id}/ - Delete a specific review
+
+# 🔐API Security
+
+To ensure secure interactions, the API implements:
+
+**Authentication** – verifies user identity (e.g., via tokens or OAuth).
+
+**Authorization** – ensures users can only access resources they’re permitted to.
+
+**Rate Limiting** – prevents abuse by restricting excessive requests.
+
+**Data Protectio**n – secures sensitive data (e.g., encryption in transit and at rest).
+
+Security is critical for protecting user data, preventing unauthorized access, securing payments, and maintaining system reliability.
