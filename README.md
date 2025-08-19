@@ -116,3 +116,17 @@ To ensure secure interactions, the API implements:
 **Data Protectio**n – secures sensitive data (e.g., encryption in transit and at rest).
 
 Security is critical for protecting user data, preventing unauthorized access, securing payments, and maintaining system reliability.
+
+# ⚙️CI/CD Pipeline
+
+A CI/CD (Continuous Integration and Continuous Deployment) pipeline automates the process of building, testing, and deploying code. It ensures faster delivery, reduces errors, and maintains consistent quality throughout the development lifecycle.
+
+For this project, CI/CD helps:
+
+- Automatically test new code before merging
+
+- Ensure stable deployments to staging and production
+
+- Speed up development with reliable, repeatable workflows
+
+**Tools:** include GitHub Actions, Docker, Jenkins, and Kubernetes for managing deployments.
